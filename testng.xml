@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite A">
+
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+
+
+<test name="Regression Test Suite">
+    <classes>
+        <class name="carRental.A_Verify_CarCount" ></class>  
+        <class name="carRental.B_FilterBy_CarSize" ></class>
+    </classes>
+</test>
+
+
+</suite>
+

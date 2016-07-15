@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite A" duration-ms="42203" started-at="2015-09-04T13:33:00Z" finished-at="2015-09-04T13:33:42Z">
+    <groups>
+    </groups>
+    <test name="Test A1" duration-ms="42203" started-at="2015-09-04T13:33:00Z" finished-at="2015-09-04T13:33:42Z">
+      <class name="carRental.B_FilterBy_CarSize">
+        <test-method status="PASS" signature="carsize()[pri:0, instance:carRental.B_FilterBy_CarSize@7074a393]" name="carsize" duration-ms="8381" started-at="2015-09-04T19:03:34Z" finished-at="2015-09-04T19:03:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carsize -->
+      </class> <!-- carRental.B_FilterBy_CarSize -->
+      <class name="carRental.A_Verify_CarCount">
+        <test-method status="PASS" signature="searchCar(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:carRental.A_Verify_CarCount@2b9c1dc4]" name="searchCar" duration-ms="33812" started-at="2015-09-04T19:03:00Z" data-provider="testdata1" finished-at="2015-09-04T19:03:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai (and vicinity), India]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20/12/2015]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09:00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11:00]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCar -->
+      </class> <!-- carRental.A_Verify_CarCount -->
+    </test> <!-- Test A1 -->
+  </suite> <!-- Suite A -->
+</testng-results>
